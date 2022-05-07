@@ -1,0 +1,17 @@
+table {
+    width: 600px;
+    
+    margin: 10px auto;
+    }
+    
+    #container{ 
+    width:625px;
+    
+    margin:10px auto;
+
+    border: groove;
+    }
+
+h1 {
+    text-align: center;
+}

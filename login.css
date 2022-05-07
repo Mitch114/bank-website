@@ -1,0 +1,7 @@
+.form-control.error {
+    font-size: 10px;
+    height: 13px;
+    bottom: 0px;
+    color: red;
+    text-align: center;
+}

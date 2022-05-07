@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Titan Community Bank Login</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+</head> 
+
+<nav>
+    <div class = "sidebar">
+    <a href= "index.html">Home</a>
+    <a href = "login.html">Login</a>
+    <a href = "registration.html">Registration</a>
+    <button class = "button1" onclick= "window.location.href = 'form.html';">Prequalify</button>
+    </div>
+</nav>
+
+<main>
+    <div class = "main">
+    <form action= "account.html" method= "post" id = "loginPage">
+        <fieldset>
+        <legend>Login</legend>
+        
+            <div class= "form-control">
+                <label>Email:</label>
+                <input type= "text" name = "email" id = "email" class = "textbox" placeholder="Your email">
+                <div class ="error"></div>
+            </div>
+
+            <div class= "form-control">
+                <label>Password:</label>
+                <input type= "password" name = "password" id = "password" class = "textbox" placeholder="Your Password">
+                <div class ="error"></div>
+            </div>
+
+            <button type = "submit" id = "loginbtn"> Login </button>
+            <button type= "reset" id = "resetpwd"> Reset Password </button>
+
+        </fieldset>
+    </form>
+
+    </div>
+</main>
+
+<footer>
+    <p>Copyright &copy; 2022</p>
+</footer>
+
+<script src = "js/login.js" defer></script>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Titan Community Bank</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/transactions.css">
+</head> 
+<body>
+    <h1>Welcome to your Titan Bank Account</h1>
+    <nav>
+        <ul class = "navbar">
+            <li><a href = "account.html">Transaction History</a></li>
+            <li><a href = "spendingtrends.html">Spending Trends</a></li>
+        </ul>
+    </nav>
+    <div class = "wrapper">
+        <div>
+            <div id = "transDisplay"></div><br>
+        </div>
+    </div>
+    <div id = "balanceDisplay"></div>
+    <form name = "bankForm" id = "bankForm" method = "post">
+        <button id = "withdrawBtn" type = "button">Withdraw</button>
+            <input type = "text" name = "withdraw" id = "withdraw" value = "" onfocus="this.value=''"><br><span id = "error1"></span><br><br>
+        <button id = "depositBtn" type = "button">Deposit</button>
+            <input type = "text" name = "deposit" id= "deposit" value = "" onfocus="this.value= ''"><br><span id = "error2"></span><br><br>
+    </form>
+</div>
+</div>
+<script src = "js/transactions.js"></script>
+</body>
+<footer>
+    <h3>Location</h3>
+    <p> St. Petersburg, FL</p>
+</footer>
+</html>
+    

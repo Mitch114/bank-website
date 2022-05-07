@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<main>
+<form action= "index.html" method= "get" id= "theForm" name = "theForm">
+    <fieldset><legend>Prequalify</legend>
+        <label for= "email">Email Address:</label><input type ="text" name = "email" id = "email"><span id = "email_error">*</span><br>
+        <label for= "email2">Re-enter Email Address:</label><input type ="email2" name = "email2" id = "email2"><span id = "email2_error">*</span><br>
+        <label for= "firstName">First Name</label><input type ="text" name = "firstName" id = "firstName"><span id = "firstName_error">*</span><br>
+        <label for= "lastName">Last Name</label><input type ="text" name = "lastName" id = "lastName"><span id = "lastName_error">*</span><br>
+        <label for= "city">City</label><input type ="text" name = "city" id = "city"><span id = "city_error">*</span><br>
+        <label for= "state">State</label><input type ="text" name = "state" id = "state"><span id = "state_error">*</span><br>
+        <label for= "zip">Zip Code</label><input type ="text" name = "zip" id = "zip"><span id = "zip_error">*</span><br>
+        <label for= "grossIncome">Gross Income</label><input type ="text" name = "grossIncome" id = "grossIncome"><span id = "grossIncome_error">*</span><br>
+        <label for= "lastFour">Last Four</label><input type ="text" name = "lastFour" id = "lastFour"><span id = "lastfour_error">*</span><br>
+        <input type ="checkbox" name ="terms" id="terms" required><span id = "email_error">*</span> This prequalification request serves as my written
+        instruction to Titan Community Bank to obtain a “soft inquiry” about my credit information, which
+        wont affect my credit score. I agree that TCB can send me an email confirming my request.
+        <label>&nbsp;</label>
+        <input type = "submit" value = "Apply" id = "submit"><br>
+        <input type ="reset" value = "Reset" id = "reset"><br>
+    </fieldset>
+</form>
+<h2 id="registration_header">&nbsp;</h2>
+<table id="registration_info"></table>
+</main>
+
+<script src = "js/prequalify.js"></script>
+
+</html>

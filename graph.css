@@ -1,0 +1,43 @@
+section {
+    border: 2px groove;
+    padding: 1em;
+}
+
+section h2 {
+    float: left;
+    margin: -1.7em 0 0;
+    padding: 0 .5em;
+    background: #fff;
+    font-size: 1em;
+    font-weight: normal;
+}
+section h7 {
+    background: rgb(230, 71, 71);
+    font-size: 1em;
+    font-weight: normal;
+}
+section h8 {
+    background: rgb(78, 144, 219);
+    font-size: 1em;
+    font-weight: normal;
+}
+section h9 {
+    background: rgb(133, 190, 100);
+    font-size: 1em;
+    font-weight: normal;
+}
+section h10 {
+    background: rgb(232, 243, 82);
+    font-size: 1em;
+    font-weight: normal;
+}
+section h11 {
+    background: rgb(181, 114, 226);
+    font-size: 1em;
+    font-weight: normal;
+}
+section h12 {
+    background: rgb(235, 138, 73);
+    font-size: 1em;
+    font-weight: normal;
+}
